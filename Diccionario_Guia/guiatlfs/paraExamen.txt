@@ -1,0 +1,39 @@
+		     * */
+		    class iterator{
+		     private:
+		      map<string,string>::iterator it;
+		     public:
+		       iterator & operator++(){
+			    ++it;
+		       }
+		       iterator & operator--(){
+			   --it;
+		       }
+		       pair<const string,string> &operator *(){
+			  return *it;
+		       }
+		       bool operator ==(const iterator &i){
+			  return i.it==it;
+		       }	  
+		       
+		       bool operator !=(const iterator &i){
+			  return i.it!=it;
+		       }
+		       friend class Guia_Tlf;
+		    };
+		    
+		    /**
+		     * @brief Inicializa un iterator al comienzo de la guia
+		     * */
+		    iterator begin(){
+			iterator i;
+			i.it=datos.begin();
+			return i;
+		    }	
+		    /**
+		     * @brief Inicializa un iterator al final de la guia
+		     * */
+		    iterator end(){
+			iterator i;
+			i.it=datos.end();
+			return i;
