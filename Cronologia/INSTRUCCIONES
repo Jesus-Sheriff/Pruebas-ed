@@ -1,0 +1,20 @@
+
+
+  _____           _                       _                       
+ |_   _|         | |                     (_)                      
+   | |  _ __  ___| |_ _ __ _   _  ___ ___ _  ___  _ __   ___  ___ 
+   | | | '_ \/ __| __| '__| | | |/ __/ __| |/ _ \| '_ \ / _ \/ __|
+  _| |_| | | \__ \ |_| |  | |_| | (_| (__| | (_) | | | |  __/\__ \
+ |_____|_| |_|___/\__|_|   \__,_|\___\___|_|\___/|_| |_|\___||___/
+                                                                  
+                                                                  
+
+1. "make run" compila y ejecuta el programa de prueba.
+2. Se han hecho (y se testean en el programa de prueba):
+	En Cronología:
+		-Operador +
+		-Operador =
+		-Operador +=
+		-El método buscarEventos("string")
+
+3. En el pdf documentacion_cronologia se explica como ejecutar y las funciones implementadas.
